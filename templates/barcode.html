@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Código de Barras Generado</title>
+</head>
+
+<body>
+    <h1>Código de Barras Generado</h1>
+    <img src="{{ url_for('static', filename='brcodes/' + img_filename) }}" alt="Código de Barras">
+    <p>Número de Producto (ID): {{ product_id }}</p>
+</body>
+
+</html>
